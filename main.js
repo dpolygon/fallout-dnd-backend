@@ -31,7 +31,7 @@ async function setupPowerArmor() {
             dp INTEGER,
             slots INTEGER,
             load INTEGER,
-            alloted_time INTEGER,
+            allotted_time INTEGER,
             description TEXT
         )
         `)
@@ -39,7 +39,7 @@ async function setupPowerArmor() {
         await db.tx(t => {
             const queries = Object.entries(data).map(([name, power_armor]) =>
                 t.none(
-                    `INSERT INTO power_armor(name, base_cost, ac, dp, slots, load, alloted_time, description)
+                    `INSERT INTO power_armor(name, base_cost, ac, dp, slots, load, allotted_time, description)
                     VALUES($1, $2, $3, $4, $5, $6, $7, $8) 
                     ON CONFLICT (name) DO NOTHING`,
                     [name,
@@ -108,27 +108,38 @@ async function setupArmor() {
 setupArmor()
 setupPowerArmor()
 
-app.get('/armor', async (req, res) => {
-    try {
-        const armors = await db.any('SELECT * FROM armor')
-        res.json(armors)
-        console.log('sent armor data')
-    } catch (error) {
-        console.log(error)
-        res.status(500).json({ error: 'Failed to fetch armor data' })
-    }
-})
+function createArmorRoutes(tableName, baseRoute) {
+    app.get(baseRoute, async (req, res) => {
+        try {
+            const items = await db.any(`SELECT * FROM ${tableName}`)
+            res.json(items)
+            console.log(`Sent ${tableName} data`)
+        } catch (error) {
+            console.error(error)
+            res.status(500).json({ error: `Failed to fetch ${tableName} data` })
+        }
+    })
 
-app.get('/power_armor', async (req, res) => {
-    try {
-        const armors = await db.any('SELECT * FROM power_armor')
-        res.json(armors);  // send JSON response
-        console.log('Sent power armor data')
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: 'Failed to fetch power armor data' });
-    }
-})
+    app.get(`${baseRoute}/:name`, async (req, res) => {
+        try {
+            const { name } = req.params
+            const item = await db.oneOrNone(`SELECT * FROM ${tableName} WHERE name = $1`, [name])
+            if (!item) {
+                return res.status(404).json({ error: `${name} not found` })
+            }
+
+            res.json(item)
+            console.log(`Sent ${name} data from ${tableName}`)
+        } catch (error) {
+            console.error(error)
+            res.status(500).json({ error: `Failed to fetch ${name} data` })
+        }
+    })
+}
+
+createArmorRoutes('armor', '/armor')
+createArmorRoutes('power_armor', '/power_armor')
+
 
 app.listen(port, () => {
     console.log(`App running at http://localhost:${port}`)
