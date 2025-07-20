@@ -1,6 +1,6 @@
 {
     "Cloth": {
-        "base_cost": "50c",
+        "base_cost": 50,
         "AC": 10,
         "DT": 0,
         "slots": 8,
@@ -9,7 +9,7 @@
         "desc": "Cloth armor doesn’t provide much protection. However, it lends its simplicity to being light and having the most amount of upgrade slots. Most vault suits are considered cloth armor."
     },
     "Leather": {
-        "base_cost": "175c",
+        "base_cost": 175,
         "AC": 11,
         "DT": 1,
         "slots": 6,
@@ -18,7 +18,7 @@
         "desc": "A jacket, fittings around the arms, knee pads, and boots all fall under leather armor. Leather isn’t very tough but can fit easily around one’s body."
     },
     "Metal": {
-        "base_cost": "250c",
+        "base_cost": 250,
         "AC": 12,
         "DT": 0,
         "slots": 4,
@@ -27,7 +27,7 @@
         "desc": "In the wasteland, you take what you can get. Metal armor is a combination of various pieces that have been welded or fitted around the body. Granting toughness but allowing less coverage."
     },
     "Multilayered": {
-        "base_cost": "275c",
+        "base_cost": 275,
         "AC": 10,
         "DT": 2,
         "slots": 5,
@@ -36,7 +36,7 @@
         "desc": "A combination of vestments. Layers of leather, cloth, tarp, metal, anything lying around to act as armor is considered multilayered. This armor provides maximum coverage but sacrifices toughness."
     },
     "Ballistic Weave": {
-        "base_cost": "800c",
+        "base_cost": 800,
         "AC": 12,
         "DT": 3,
         "slots": 2,
@@ -45,7 +45,7 @@
         "desc": "Bulletproof vests, kevlar, or military grade jackets. Ballistic weave is a pre-war synthetic fiber whose reproduction has been lost with the war. Extremely rare but provides the best of all armor aspects; coverage, toughness, and weight."
     },
     "Steel": {
-        "base_cost": "650c",
+        "base_cost": 650,
         "AC": 13,
         "DT": 2,
         "slots": 2,
