@@ -1,42 +1,47 @@
 {
-    "T-45": {
-        "base_cost": "4,050c",
-        "AC": 14,
-        "DP": 10,
-        "slots": 6,
-        "load": 100,
-        "allotted_time": "4 hours"
-    },
-    "T-51": {
-        "base_cost": "80,250c",
-        "AC": 17,
-        "DP": 15,
-        "slots": 5,
-        "load": 100,
-        "allotted_time": "6 hours"
-    },
-    "T-60": {
-        "base_cost": "85,750c",
-        "AC": 16,
-        "DP": 20,
-        "slots": 6,
-        "load": 100,
-        "allotted_time": "4 hours"
-    },
-    "X-01": {
-        "base_cost": "133,500c",
-        "AC": 16,
-        "DP": 35,
-        "slots": 4,
-        "load": 100,
-        "allotted_time": "3 hours"
-    },
-    "X-02": {
-        "base_cost": "155,000c",
-        "AC": 18,
-        "DP": 30,
-        "slots": 4,
-        "load": 100,
-        "allotted_time": "3 hours"
-    }
+  "T-45": {
+    "base_cost": 4050,
+    "AC": 14,
+    "DP": 10,
+    "slots": 6,
+    "load": 100,
+    "allotted_time": 240,
+    "desc": "The T-45 power armor was the first model deployed by the U.S. military before the Great War. Although bulky and relatively outdated by later standards, it revolutionized infantry combat during the Sino-American War. Often associated with the earliest Brotherhood of Steel expeditions, the T-45 remains a symbol of the pre-war military's technological leap."
+  },
+  "T-51": {
+    "base_cost": 80250,
+    "AC": 17,
+    "DP": 15,
+    "slots": 5,
+    "load": 100,
+    "allotted_time": 360,
+    "desc": "The T-51 was a major upgrade over the T-45 and is considered by many to be the most advanced pre-war power armor. It saw extensive use in the final days of the Resource Wars, featuring improved mobility, radiation shielding, and durability. Its sleek chrome design and effectiveness in the Anchorage campaign made it legendary."
+  },
+  "T-60": {
+    "base_cost": 85750,
+    "AC": 16,
+    "DP": 20,
+    "slots": 6,
+    "load": 100,
+    "allotted_time": 240,
+    "desc": "The T-60 power armor was developed shortly before the Great War and was a stopgap between the T-51 and experimental models like the X-01. Used primarily by military police and Brotherhood of Steel forces, the T-60 features reinforced armor plating and improved core efficiency. It became the Brotherhood's standard issue in the post-war era."
+  },
+  "X-01": {
+    "base_cost": 133500,
+    "AC": 16,
+    "DP": 35,
+    "slots": 4,
+    "load": 100,
+    "allotted_time": 180,
+    "desc": "The X-01 is an experimental power armor developed in secret by remnants of the U.S. military or possibly by Enclave scientists. With its menacing appearance and advanced shielding, it surpasses all pre-war designs in combat performance. Rare and powerful, it is a symbol of shadowy government projects that survived the nuclear apocalypse."
+  },
+  "X-02": {
+    "base_cost": 155000,
+    "AC": 18,
+    "DP": 30,
+    "slots": 4,
+    "load": 100,
+    "allotted_time": 180,
+    "desc": "The X-02, also known as 'Black Devil' armor, was developed by the Enclave as a successor to the X-01. With its aggressive aesthetic, heavy plating, and advanced tech, it represents the peak of post-war power armor engineering. Rarely seen outside Enclave forces, it embodies their ideology of strength through supremacy."
+  }
 }
