@@ -1,0 +1,154 @@
+{
+    "Power Armor Chassis": {
+        "dc": 20,
+        "materials": {
+            "aluminum": 8,
+            "circuitry": 2,
+            "gear": 4,
+            "nuclear material": 1,
+            "oil": 5,
+            "plastic": 10,
+            "rubber": 3,
+            "screws": 9,
+            "spring": 2,
+            "steel": 14
+        },
+        "time": "7 days",
+        "repair": {}
+    },
+    "T-45": {
+        "dc": 18,
+        "materials": {
+            "power armor chassis": 1,
+            "aluminum": 8,
+            "circuitry": 1,
+            "gear": 4,
+            "nuclear material": 1,
+            "oil": 5,
+            "plastic": 10,
+            "rubber": 3,
+            "screws": 9,
+            "spring": 2,
+            "steel": 14
+        },
+        "time": "10 days",
+        "repair": {
+            "dc": 16,
+            "materials": {
+                "steel": 5,
+                "circuitry": 3,
+                "aluminum": 3,
+                "adhesive": 3
+            },
+            "time": "15 minutes per level of decay"
+        }
+    },
+    "T-51": {
+        "dc": 22,
+        "materials": {
+            "power armor chassis": 1,
+            "aluminum": 8,
+            "circuitry": 1,
+            "gear": 4,
+            "nuclear material": 1,
+            "oil": 5,
+            "plastic": 10,
+            "rubber": 3,
+            "screws": 9,
+            "spring": 2,
+            "steel": 14
+        },
+        "time": "14 days",
+        "repair": {
+            "dc": 23,
+            "materials": {
+                "steel": 5,
+                "circuitry": 3,
+                "aluminum": 3,
+                "adhesive": 3
+            },
+            "time": "15 minutes per level of decay"
+        }
+    },
+    "T-60": {
+        "dc": 26,
+        "materials": {
+            "power armor chassis": 1,
+            "aluminum": 8,
+            "circuitry": 1,
+            "gear": 4,
+            "nuclear material": 1,
+            "oil": 5,
+            "plastic": 10,
+            "rubber": 3,
+            "screws": 9,
+            "spring": 2,
+            "steel": 14
+        },
+        "time": "18 days",
+        "repair": {
+            "dc": 20,
+            "materials": {
+                "steel": 5,
+                "circuitry": 3,
+                "aluminum": 3,
+                "adhesive": 3
+            },
+            "time": "15 minutes per level of decay"
+        }
+    },
+    "X-01": {
+        "dc": 30,
+        "materials": {
+            "power armor chassis": 1,
+            "aluminum": 8,
+            "circuitry": 1,
+            "gear": 4,
+            "nuclear material": 1,
+            "oil": 5,
+            "plastic": 10,
+            "rubber": 3,
+            "screws": 9,
+            "spring": 2,
+            "steel": 14
+        },
+        "time": "25 days",
+        "repair": {
+            "dc": 25,
+            "materials": {
+                "steel": 5,
+                "circuitry": 3,
+                "aluminum": 3,
+                "adhesive": 3
+            },
+            "time": "15 minutes per level of decay"
+        }
+    },
+    "X-02": {
+        "dc": 32,
+        "materials": {
+            "power armor chassis": 1,
+            "aluminum": 8,
+            "circuitry": 1,
+            "gear": 4,
+            "nuclear material": 1,
+            "oil": 5,
+            "plastic": 10,
+            "rubber": 3,
+            "screws": 9,
+            "spring": 2,
+            "steel": 14
+        },
+        "time": "30 days",
+        "repair": {
+            "dc": 25,
+            "materials": {
+                "steel": 5,
+                "circuitry": 3,
+                "aluminum": 3,
+                "adhesive": 3
+            },
+            "time": "15 minutes per level of decay"
+        }
+    }
+}

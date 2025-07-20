@@ -1,0 +1,151 @@
+{
+    "Camouflage": {
+        "base_cost": "125c",
+        "rank": {
+            "1": {
+                "effect": "You gain advantage on sneak checks relying on sight. Your passive sneak increases by 3.",
+                "sneak": 3
+            },
+            "2": {
+                "effect": "You gain advantage on sneak checks relying on sound. Your passive sneak increases by 3.",
+                "sneak": 3
+            },
+            "3": {
+                "effect": "While in dim light, you become shadowed. Your passive sneak increases by 3.",
+                "sneak": 3
+            }
+        }
+    },
+    "Light": {
+        "base_cost": "75c",
+        "rank": {
+            "1": {
+                "effect": "Load reduced by 5. Strength req. reduced by 1.",
+                "load": -5,
+                "str_requirement": -1
+            },
+            "2": {
+                "effect": "DT reduced by 1. Load reduced by 10 (minimum of 3).",
+                "DT": -1,
+                "load": -10
+            },
+            "3": {
+                "effect": "If you spend at least 4 AP on your turn to move, you can move an additional 10 feet."
+            }
+        }
+    },
+    "Fitted": {
+        "base_cost": "175c",
+        "rank": {
+            "1": {
+                "effect": "When you take damage from an area of effect, your DT is doubled."
+            },
+            "2": {
+                "effect": "Your maximum stamina points increase by a number equal to your level."
+            },
+            "3": {
+                "effect": "You have advantage on combat sequence rolls. If you already have advantage, you gain a +5."
+            }
+        }
+    },
+    "Lead Lined": {
+        "base_cost": "125c",
+        "rank": {
+            "1": {
+                "effect": "Radiation DC decreases by 2.",
+                "radiation_dc": -2
+            },
+            "2": {
+                "effect": "Radiation DC decreases by 2.",
+                "radiation_dc": -2
+            },
+            "3": {
+                "effect": "Radiation DC decreases by 2.",
+                "radiation_dc": -2
+            }
+        }
+    },
+    "Strengthened": {
+        "base_cost": "410c",
+        "rank": {
+            "1": {
+                "effect": "When you take damage from a critical hit, your DT increases by 3.",
+                "DT": 3
+            },
+            "2": {
+                "effect": "When you take damage from a critical hit, your DT increases by 5.",
+                "DT": 5
+            },
+            "3": {
+                "effect": "If you would gain a severe injury, you instead gain a random limb condition."
+            }
+        }
+    },
+    "Sturdy": {
+        "base_cost": "475c",
+        "rank": {
+            "1": {
+                "effect": "You ignore the negative effects of the first 2 levels of decay for the armor.",
+                "decay_tolerance": 2
+            },
+            "2": {
+                "effect": "You ignore the negative effects of the first 4 levels of decay for the armor.",
+                "decay_tolerance": 4
+            },
+            "3": {
+                "effect": "Your armor no longer decays from being damaged by a critical hit."
+            }
+        }
+    },
+    "Pocketed": {
+        "base_cost": "210c",
+        "rank": {
+            "1": {
+                "effect": "Your carry load is increased by 10.",
+                "carry_load": 10
+            },
+            "2": {
+                "effect": "Your carry load is increased by 15.",
+                "carry_load": 15
+            },
+            "3": {
+                "effect": "Your carry load is increased by 25.",
+                "carry_load": 25
+            }
+        }
+    },
+    "Reinforced": {
+        "base_cost": "450c",
+        "rank": {
+            "1": {
+                "effect": "+1 bonus to DT",
+                "DT": 1
+            },
+            "2": {
+                "effect": "+1 bonus to DT",
+                "DT": 1
+            },
+            "3": {
+                "effect": "+2 bonus to DT",
+                "DT": 2
+            }
+        }
+    },
+    "Hardened": {
+        "base_cost": "800c",
+        "rank": {
+            "1": {
+                "effect": "+1 bonus to AC",
+                "AC": 1
+            },
+            "2": {
+                "effect": "+1 bonus to AC",
+                "AC": 1
+            },
+            "3": {
+                "effect": "+1 bonus to AC",
+                "AC": 1
+            }
+        }
+    }
+}

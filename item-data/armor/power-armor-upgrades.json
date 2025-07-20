@@ -1,0 +1,258 @@
+{
+    "Explosive Shielding": {
+        "base_cost": "1350c",
+        "rank": {
+            "1": {
+                "effect": "Reduce explosive damage taken by 5"
+            },
+            "2": {
+                "effect": "Reduce explosive damage taken by 10"
+            },
+            "3": {
+                "effect": "Reduce explosive damage taken by 15"
+            }
+        }
+    },
+    "Prism Shielding": {
+        "base_cost": "1800c",
+        "rank": {
+            "1": {
+                "effect": "Reduce laser and plasma damage taken by 5"
+            },
+            "2": {
+                "effect": "Reduce laser and plasma damage taken by 5"
+            },
+            "3": {
+                "effect": "Reduce laser and plasma damage taken by 10"
+            }
+        }
+    },
+    "Emergency Protocols": {
+        "base_cost": "1800c",
+        "rank": {
+            "1": {
+                "effect": "If you start your turn with less than half your hit points, you can spend 1 AP to move 10 feet."
+            },
+            "2": {
+                "effect": "If you start your turn with less than half your hit points, your DT increases by 5 (only for damage against HP)."
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Kinetic Dynamo": {
+        "base_cost": "2400c",
+        "rank": {
+            "1": {
+                "effect": "You gain an additional AP at the start of your turn for each level of decay the power armor gained since your last turn."
+            },
+            "2": {
+                "effect": ""
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Tesla Coils": {
+        "base_cost": "2400c",
+        "rank": {
+            "1": {
+                "effect": "Spend 3 AP to activate or deactivate, each creature within 10 feet takes 1d6 electricity damage when activated and at the start of their turns. Removes 10 minutes from allotted time per round active."
+            },
+            "2": {
+                "effect": "Electricity damage increases by 1d6. Removes an additional 5 minutes per round active."
+            },
+            "3": {
+                "effect": "Electricity damage increases by 2d6. Removes an additional 10 minutes per round active."
+            }
+        }
+    },
+    "Reactive Plates": {
+        "base_cost": "2700c",
+        "rank": {
+            "1": {
+                "effect": "When you take damage from a melee attack, the attacker takes a quarter (rounded down) of the damage they dealt."
+            },
+            "2": {
+                "effect": "The attacker takes another quarter (rounded down) of the damage they dealt (effectively half total)."
+            },
+            "3": {
+                "effect": "When you take damage from a melee attack, the attacker is knocked back 15 feet."
+            }
+        }
+    },
+    "Core Assembly": {
+        "base_cost": "2250c",
+        "rank": {
+            "1": {
+                "effect": "Spending more than 18 AP on your turn causes overheating instead of 15."
+            },
+            "2": {
+                "effect": "Spending more than 20 AP on your turn causes overheating instead of 15."
+            },
+            "3": {
+                "effect": "Overheating requires 15 minutes of allotted time loss instead of 30."
+            }
+        }
+    },
+    "Jet Pack": {
+        "base_cost": "6000c",
+        "rank": {
+            "1": {
+                "effect": "You can spend 1 AP on your turn to fly 5 feet upwards. For every 5 feet you fly you..."
+            },
+            "2": {
+                "effect": ""
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Sensor Array": {
+        "base_cost": "4500c",
+        "rank": {
+            "1": {
+                "effect": "Passive sense increases by 5."
+            },
+            "2": {
+                "effect": "Passive sense increases by 5."
+            },
+            "3": {
+                "effect": "Passive sense increases by 10."
+            }
+        }
+    },
+    "VATS Matrix Overlay": {
+        "base_cost": "2700c",
+        "rank": {
+            "1": {
+                "effect": "Whenever you make a targeted attack roll, reduce the additional AP cost by 1."
+            },
+            "2": {
+                "effect": "Whenever you make a targeted attack roll, reduce the additional AP cost by 1."
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Internal Database": {
+        "base_cost": "2400c",
+        "rank": {
+            "1": {
+                "effect": "If you can see a creature, you can spend 6 AP on your turn to learn its HP total, SP total, AC, or DT."
+            },
+            "2": {
+                "effect": ""
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Targeting HUD": {
+        "base_cost": "1800c",
+        "rank": {
+            "1": {
+                "effect": "If you can see a creature, you can spend 3 AP to mark it. Only one marked creature at a time. Deal an additional damage die to marked creatures."
+            },
+            "2": {
+                "effect": "You can mark up to two more creatures. Deal an additional damage die to marked creatures."
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Headlamp": {
+        "base_cost": "250c",
+        "rank": {
+            "1": {
+                "effect": "Spend 1 AP to turn on your headlamp. Shines bright light in 40 ft cone and dim light for an additional 40 ft."
+            },
+            "2": {
+                "effect": "Bright and dim light both shine an additional 10 feet."
+            },
+            "3": {
+                "effect": "Bright and dim light both shine an additional 10 feet. If turned on in darkness, creatures within 5 feet are blinded for one round."
+            }
+        }
+    },
+    "Rusty Knuckles": {
+        "base_cost": "100c",
+        "rank": {
+            "1": {
+                "effect": "If you hit a creature with an unarmed attack, they bleed."
+            },
+            "2": {
+                "effect": ""
+            },
+            "3": {
+                "effect": ""
+            }
+        }
+    },
+    "Optimized Bracers": {
+        "base_cost": "1700c",
+        "rank": {
+            "1": {
+                "effect": "Spend 6 AP on your turn to make a powerful unarmed attack that deals 2d6 bludgeoning damage."
+            },
+            "2": {
+                "effect": "The damage increases by 1d6."
+            },
+            "3": {
+                "effect": "The damage increases by 1d6 and pushes targets 15 feet back."
+            }
+        }
+    },
+    "Calibrated Shocks": {
+        "base_cost": "1000c",
+        "rank": {
+            "1": {
+                "effect": "Carry Load increases by 15."
+            },
+            "2": {
+                "effect": "Carry Load increases by 15."
+            },
+            "3": {
+                "effect": "Carry Load increases by 20."
+            }
+        }
+    },
+    "Overclock Hydraulics": {
+        "base_cost": "1950c",
+        "rank": {
+            "1": {
+                "effect": "While overheated, max AP increases by 2, advantage on all attack rolls, move 15 feet with 1 AP, unarmed attacks deal 3d6 fire damage."
+            },
+            "2": {
+                "effect": "You can spend 3 AP to overheat the fusion core."
+            },
+            "3": {
+                "effect": "Your maximum AP increases by 2."
+            }
+        }
+    },
+    "Explosive Vent": {
+        "base_cost": "1250c",
+        "rank": {
+            "1": {
+                "effect": "If you fall at least 15 feet, activate to deal 3d6 fire damage and 3d6 explosive damage to creatures within 20 feet. Removes 20 minutes from allotted time."
+            },
+            "2": {
+                "effect": "Fire and explosive damage each increase by 1d6."
+            },
+            "3": {
+                "effect": "The radius increases by 10 feet."
+            }
+        }
+    },
+    "Super Mutant Fitting": {
+        "base_cost": "50% base cost",
+        "effect": "Armor modified for super mutants only; humans and ghouls cannot use it. Requires same price/materials to remove."
+    }
+}

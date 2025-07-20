@@ -1,0 +1,42 @@
+{
+    "T-45": {
+        "base_cost": "4,050c",
+        "AC": 14,
+        "DP": 10,
+        "slots": 6,
+        "load": 100,
+        "allotted_time": "4 hours"
+    },
+    "T-51": {
+        "base_cost": "80,250c",
+        "AC": 17,
+        "DP": 15,
+        "slots": 5,
+        "load": 100,
+        "allotted_time": "6 hours"
+    },
+    "T-60": {
+        "base_cost": "85,750c",
+        "AC": 16,
+        "DP": 20,
+        "slots": 6,
+        "load": 100,
+        "allotted_time": "4 hours"
+    },
+    "X-01": {
+        "base_cost": "133,500c",
+        "AC": 16,
+        "DP": 35,
+        "slots": 4,
+        "load": 100,
+        "allotted_time": "3 hours"
+    },
+    "X-02": {
+        "base_cost": "155,000c",
+        "AC": 18,
+        "DP": 30,
+        "slots": 4,
+        "load": 100,
+        "allotted_time": "3 hours"
+    }
+}

@@ -1,0 +1,483 @@
+{
+    "Explosive Shielding": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "materials": {
+                    "adhesive": 5,
+                    "aluminum": 4,
+                    "ceramic": 5
+                }
+            },
+            "2": {
+                "dc": 18,
+                "materials": {
+                    "adhesive": 5,
+                    "aluminum": 4,
+                    "ceramic": 5
+                }
+            },
+            "3": {
+                "dc": 24,
+                "materials": {
+                    "adhesive": 5,
+                    "aluminum": 4,
+                    "ceramic": 5
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Prism Shielding": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 6,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 2,
+                    "nuclear material": 4,
+                    "rubber": 4
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 2,
+                    "nuclear material": 4,
+                    "rubber": 4
+                }
+            },
+            "3": {
+                "dc": 24,
+                "science": 12,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 2,
+                    "nuclear material": 4,
+                    "rubber": 4
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Emergency Protocols": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 6,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 7,
+                    "circuitry": 10,
+                    "nuclear material": 9
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 7,
+                    "circuitry": 10,
+                    "nuclear material": 9
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Kinetic Dynamo": {
+        "rank": {
+            "1": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 5,
+                    "ceramic": 5,
+                    "rubber": 5
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Tesla Coils": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 8,
+                "materials": {
+                    "adhesive": 9,
+                    "aluminum": 7,
+                    "copper": 10,
+                    "fiber optics": 5,
+                    "rubber": 10
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 11,
+                "materials": {
+                    "adhesive": 9,
+                    "aluminum": 7,
+                    "copper": 10,
+                    "fiber optics": 5,
+                    "rubber": 10
+                }
+            },
+            "3": {
+                "dc": 24,
+                "science": 14,
+                "materials": {
+                    "adhesive": 9,
+                    "aluminum": 7,
+                    "copper": 10,
+                    "fiber optics": 5,
+                    "rubber": 10
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Reactive Plates": {
+        "rank": {
+            "1": {
+                "dc": 14,
+                "materials": {
+                    "adhesive": 9,
+                    "aluminum": 7,
+                    "asbestos": 7,
+                    "nuclear material": 9
+                }
+            },
+            "2": {
+                "dc": 20,
+                "materials": {
+                    "adhesive": 9,
+                    "aluminum": 7,
+                    "asbestos": 7,
+                    "nuclear material": 9
+                }
+            },
+            "3": {
+                "dc": 26,
+                "materials": {
+                    "adhesive": 9,
+                    "aluminum": 7,
+                    "asbestos": 7,
+                    "nuclear material": 9
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Core Assembly": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 6,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 9,
+                    "circuitry": 5,
+                    "nuclear material": 5
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 9,
+                    "circuitry": 5,
+                    "nuclear material": 5
+                }
+            },
+            "3": {
+                "dc": 24,
+                "science": 12,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 9,
+                    "circuitry": 5,
+                    "nuclear material": 5
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Jet Pack": {
+        "rank": {
+            "1": {
+                "dc": 20,
+                "science": 12,
+                "materials": {
+                    "adhesive": 5,
+                    "aluminum": 9,
+                    "asbestos": 8,
+                    "nuclear material": 10
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Sensor Array": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 6,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 5,
+                    "fiberglass": 4,
+                    "fiber optics": 4
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 5,
+                    "fiberglass": 4,
+                    "fiber optics": 4
+                }
+            },
+            "3": {
+                "dc": 24,
+                "science": 12,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 5,
+                    "fiberglass": 4,
+                    "fiber optics": 4
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "VATS Matrix Overlay": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 3,
+                    "circuitry": 4,
+                    "fiber optics": 3
+                }
+            },
+            "2": {
+                "dc": 18,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 3,
+                    "circuitry": 4,
+                    "fiber optics": 3
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Internal Database": {
+        "rank": {
+            "1": {
+                "dc": 10,
+                "science": 3,
+                "materials": {
+                    "adhesive": 6,
+                    "crystal": 6,
+                    "circuitry": 5,
+                    "fiber optics": 4
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Targeting HUD": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 6,
+                "materials": {
+                    "adhesive": 6,
+                    "aluminum": 5,
+                    "circuitry": 6,
+                    "copper": 4
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 6,
+                    "aluminum": 5,
+                    "circuitry": 6,
+                    "copper": 4
+                }
+            },
+            "3": {
+                "dc": 24,
+                "science": 12,
+                "materials": {
+                    "adhesive": 6,
+                    "aluminum": 5,
+                    "circuitry": 6,
+                    "copper": 4
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Headlamp": {
+        "rank": {
+            "1": {
+                "dc": 10,
+                "materials": {
+                    "adhesive": 1,
+                    "copper": 1,
+                    "fiber optics": 1
+                }
+            },
+            "2": {
+                "dc": 14,
+                "materials": {
+                    "adhesive": 1,
+                    "copper": 1,
+                    "fiber optics": 1
+                }
+            },
+            "3": {
+                "dc": 18,
+                "materials": {
+                    "adhesive": 1,
+                    "copper": 1,
+                    "fiber optics": 1
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Rusty Knuckles": {
+        "rank": {
+            "1": {
+                "dc": 10,
+                "materials": {
+                    "adhesive": 3,
+                    "cloth": 8,
+                    "steel": 6
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Optimized Bracers": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "materials": {
+                    "adhesive": 3,
+                    "aluminum": 4,
+                    "ceramic": 3,
+                    "steel": 3
+                }
+            },
+            "2": {
+                "dc": 18,
+                "materials": {
+                    "adhesive": 3,
+                    "aluminum": 4,
+                    "ceramic": 3,
+                    "steel": 3
+                }
+            },
+            "3": {
+                "dc": 24,
+                "materials": {
+                    "adhesive": 3,
+                    "aluminum": 4,
+                    "ceramic": 3,
+                    "steel": 3
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Calibrated Shocks": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "science": 6,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 7,
+                    "fiberglass": 5
+                }
+            },
+            "2": {
+                "dc": 18,
+                "science": 9,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 7,
+                    "fiberglass": 5
+                }
+            },
+            "3": {
+                "dc": 24,
+                "science": 12,
+                "materials": {
+                    "adhesive": 4,
+                    "aluminum": 7,
+                    "fiberglass": 5
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Overclock Hydraulics": {
+        "rank": {
+            "1": {
+                "dc": 12,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 9,
+                    "circuitry": 5,
+                    "oil": 6,
+                    "nuclear material": 5
+                }
+            },
+            "2": {
+                "dc": 18,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 9,
+                    "circuitry": 5,
+                    "oil": 6,
+                    "nuclear material": 5
+                }
+            },
+            "3": {
+                "dc": 24,
+                "materials": {
+                    "adhesive": 7,
+                    "aluminum": 9,
+                    "circuitry": 5,
+                    "oil": 6,
+                    "nuclear material": 5
+                }
+            }
+        },
+        "time": "3 hours"
+    },
+    "Super Mutant Fitting": {
+        "rank": {
+            "1": {
+                "dc": 15,
+                "materials": {}
+            }
+        }
+    }
+}
