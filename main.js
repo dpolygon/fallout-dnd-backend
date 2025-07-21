@@ -58,7 +58,38 @@ async function setupPowerArmor() {
 
         console.log('Power Armor Data inserted successfully!')
     } catch (error) {
-        console.error('Problem setting up power armor tables:', error)
+        console.error('Problem setting up power armor table:', error)
+    }
+}
+
+async function setupPowerArmorUpgrades() {
+    try {
+        const data = JSON.parse(await fs.readFile('item-data/armor/power-armor-upgrades.json'))
+
+        await db.none(`
+            CREATE TABLE IF NOT EXISTS power_armor_upgrades (
+                name TEXT PRIMARY KEY,
+                base_cost INTEGER,
+                description TEXT,
+                ranks JSONB
+            )
+            `)
+
+        await db.tx(t => {
+            const queries = Object.entries(data).map(([name, upgrade]) =>
+                t.none(
+                    `INSERT INTO power_armor_upgrades(name, base_cost, description, ranks)
+                    VALUES($1, $2, $3, $4)
+                    ON CONFLICT (name) DO NOTHING`,
+                    [name, upgrade.base_cost, upgrade.description, upgrade.ranks]
+                )
+            )
+            return t.batch(queries)
+        })
+
+        console.log('Power Armor Upgrades Data inserted successfully!')
+    } catch (error) {
+        console.log("Problem setting up power armor upgrades table:", error)
     }
 }
 
@@ -101,12 +132,49 @@ async function setupArmor() {
 
         console.log('Armor Data inserted successfully!')
     } catch (error) {
-        console.log("Problem setting up armor tables:", error)
+        console.log("Problem setting up armor table:", error)
+    }
+}
+
+async function setupArmorUpgrades() {
+    try {
+        var data = JSON.parse(await fs.readFile('item-data/armor/armor-upgrades.json'))
+
+        db.none(`
+            CREATE TABLE IF NOT EXISTS armor_upgrades (
+                name TEXT PRIMARY KEY,
+                base_cost INTEGER,
+                description TEXT,
+                ranks JSONB
+            )
+            `)
+
+        db.tx(t => {
+            const queries = Object.entries(data).map(([name, upgrade]) =>
+                t.none(
+                    `INSERT INTO armor_upgrades(name, base_cost, description, ranks)
+                        VALUES ($1, $2, $3, $4)
+                        ON CONFLICT (name) DO NOTHING`,
+                    [name,
+                        upgrade.base_cost,
+                        upgrade.description,
+                        upgrade.ranks]
+                )
+            )
+
+            return t.batch(queries)
+        })
+        console.log('Armor Upgrades Data inserted successfully')
+    } catch (error) {
+        console.log("Problem setting up armor upgrades table:", error)
+
     }
 }
 
 setupArmor()
+setupArmorUpgrades()
 setupPowerArmor()
+setupPowerArmorUpgrades()
 
 function createArmorRoutes(tableName, baseRoute) {
     app.get(baseRoute, async (req, res) => {
@@ -138,7 +206,9 @@ function createArmorRoutes(tableName, baseRoute) {
 }
 
 createArmorRoutes('armor', '/armor')
+createArmorRoutes('armor_upgrades', '/armor_upgrades')
 createArmorRoutes('power_armor', '/power_armor')
+createArmorRoutes('power_armor_upgrades', '/power_armor_upgrades')
 
 
 app.listen(port, () => {

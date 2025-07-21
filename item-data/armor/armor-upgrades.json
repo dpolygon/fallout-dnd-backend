@@ -1,7 +1,8 @@
 {
     "Camouflage": {
-        "base_cost": "125c",
-        "rank": {
+        "base_cost": 125,
+        "description": "Why blend in when you can disappear? A must-have for those who prefer to kill quietly and live slightly longer.",
+        "ranks": {
             "1": {
                 "effect": "You gain advantage on sneak checks relying on sight. Your passive sneak increases by 3.",
                 "sneak": 3
@@ -17,8 +18,9 @@
         }
     },
     "Light": {
-        "base_cost": "75c",
-        "rank": {
+        "base_cost": 75,
+        "description": "Less clank, more sprint. Ideal for running from trouble... or right into it.",
+        "ranks": {
             "1": {
                 "effect": "Load reduced by 5. Strength req. reduced by 1.",
                 "load": -5,
@@ -35,8 +37,9 @@
         }
     },
     "Fitted": {
-        "base_cost": "175c",
-        "rank": {
+        "base_cost": 175,
+        "description": "Tailored for tactical terror. Streamlined plating gives you the edge when things go boom.",
+        "ranks": {
             "1": {
                 "effect": "When you take damage from an area of effect, your DT is doubled."
             },
@@ -49,8 +52,9 @@
         }
     },
     "Lead Lined": {
-        "base_cost": "125c",
-        "rank": {
+        "base_cost": 125,
+        "description": "Because glowing in the dark is only cool in cartoons. Say goodbye to that tan—forever.",
+        "ranks": {
             "1": {
                 "effect": "Radiation DC decreases by 2.",
                 "radiation_dc": -2
@@ -66,8 +70,9 @@
         }
     },
     "Strengthened": {
-        "base_cost": "410c",
-        "rank": {
+        "base_cost": 410,
+        "description": "A few extra plates between you and a bullet. Not subtle, but neither is dying.",
+        "ranks": {
             "1": {
                 "effect": "When you take damage from a critical hit, your DT increases by 3.",
                 "DT": 3
@@ -82,8 +87,9 @@
         }
     },
     "Sturdy": {
-        "base_cost": "475c",
-        "rank": {
+        "base_cost": 475,
+        "description": "Built to last, like your uncle’s drinking problem. This baby takes a beating and keeps trudging.",
+        "ranks": {
             "1": {
                 "effect": "You ignore the negative effects of the first 2 levels of decay for the armor.",
                 "decay_tolerance": 2
@@ -98,8 +104,9 @@
         }
     },
     "Pocketed": {
-        "base_cost": "210c",
-        "rank": {
+        "base_cost": 210,
+        "description": "Finally, enough space for all your ammo, meds, spare parts, and that perfectly preserved Fancy Lad snack cake.",
+        "ranks": {
             "1": {
                 "effect": "Your carry load is increased by 10.",
                 "carry_load": 10
@@ -115,8 +122,9 @@
         }
     },
     "Reinforced": {
-        "base_cost": "450c",
-        "rank": {
+        "base_cost": 450,
+        "description": "Extra bolts, extra plates, extra peace of mind. When the shooting starts, you’ll be glad you spent the caps.",
+        "ranks": {
             "1": {
                 "effect": "+1 bonus to DT",
                 "DT": 1
@@ -132,8 +140,9 @@
         }
     },
     "Hardened": {
-        "base_cost": "800c",
-        "rank": {
+        "base_cost": 800,
+        "description": "Industrial-grade protection for wasteland-grade violence. If it doesn’t stop the bullet, it’ll at least make a nice ‘ping’.",
+        "ranks": {
             "1": {
                 "effect": "+1 bonus to AC",
                 "AC": 1
