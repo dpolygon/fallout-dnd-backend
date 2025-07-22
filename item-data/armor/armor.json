@@ -5,7 +5,7 @@
         "DT": 0,
         "slots": 8,
         "load": 5,
-        "str_requirement": 1,
+        "str_req": 1,
         "desc": "Cloth armor doesn’t provide much protection. However, it lends its simplicity to being light and having the most amount of upgrade slots. Most vault suits are considered cloth armor."
     },
     "Leather": {
@@ -14,7 +14,7 @@
         "DT": 1,
         "slots": 6,
         "load": 15,
-        "str_requirement": 1,
+        "str_req": 1,
         "desc": "A jacket, fittings around the arms, knee pads, and boots all fall under leather armor. Leather isn’t very tough but can fit easily around one’s body."
     },
     "Metal": {
@@ -23,7 +23,7 @@
         "DT": 0,
         "slots": 4,
         "load": 20,
-        "str_requirement": 5,
+        "str_req": 5,
         "desc": "In the wasteland, you take what you can get. Metal armor is a combination of various pieces that have been welded or fitted around the body. Granting toughness but allowing less coverage."
     },
     "Multilayered": {
@@ -32,7 +32,7 @@
         "DT": 2,
         "slots": 5,
         "load": 40,
-        "str_requirement": 3,
+        "str_req": 3,
         "desc": "A combination of vestments. Layers of leather, cloth, tarp, metal, anything lying around to act as armor is considered multilayered. This armor provides maximum coverage but sacrifices toughness."
     },
     "Ballistic Weave": {
@@ -41,7 +41,7 @@
         "DT": 3,
         "slots": 2,
         "load": 10,
-        "str_requirement": 3,
+        "str_req": 3,
         "desc": "Bulletproof vests, kevlar, or military grade jackets. Ballistic weave is a pre-war synthetic fiber whose reproduction has been lost with the war. Extremely rare but provides the best of all armor aspects; coverage, toughness, and weight."
     },
     "Steel": {
@@ -50,7 +50,7 @@
         "DT": 2,
         "slots": 2,
         "load": 50,
-        "str_requirement": 6,
+        "str_req": 6,
         "desc": "Fitted plates of metal that cover the body like a knight provide a modern solution in the apocalypse for dealing with threats. Steel maximizes coverage and toughness so long as you have the strength."
     }
 }

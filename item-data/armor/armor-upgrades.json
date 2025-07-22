@@ -24,7 +24,7 @@
             "1": {
                 "effect": "Load reduced by 5. Strength req. reduced by 1.",
                 "load": -5,
-                "str_requirement": -1
+                "str_req": -1
             },
             "2": {
                 "effect": "DT reduced by 1. Load reduced by 10 (minimum of 3).",
