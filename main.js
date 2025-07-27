@@ -3,7 +3,7 @@ const pgp = require('pg-promise')()
 const fs = require('fs/promises')
 const dotenv = require('dotenv')
 const cors = require('cors')
-const { arrayBuffer } = require('stream/consumers')
+const { arrayBuffer, json } = require('stream/consumers')
 const app = express()
 const port = 3000
 
@@ -32,15 +32,17 @@ async function setupPowerArmor() {
             slots INTEGER,
             load INTEGER,
             allotted_time INTEGER,
-            description TEXT
+            description TEXT,
+            craft JSONB,
+            repair JSONB
         )
         `)
 
         await db.tx(t => {
             const queries = Object.entries(data).map(([name, power_armor]) =>
                 t.none(
-                    `INSERT INTO power_armor(name, base_cost, ac, dp, slots, load, allotted_time, description)
-                    VALUES($1, $2, $3, $4, $5, $6, $7, $8) 
+                    `INSERT INTO power_armor(name, base_cost, ac, dp, slots, load, allotted_time, description, craft, repair)
+                    VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) 
                     ON CONFLICT (name) DO NOTHING`,
                     [name,
                         power_armor.base_cost,
@@ -49,7 +51,9 @@ async function setupPowerArmor() {
                         power_armor.slots,
                         power_armor.load,
                         power_armor.allotted_time,
-                        power_armor.desc
+                        power_armor.description,
+                        power_armor.craft,
+                        power_armor.repair
                     ]
                 )
             )
@@ -71,17 +75,22 @@ async function setupPowerArmorUpgrades() {
                 name TEXT PRIMARY KEY,
                 base_cost INTEGER,
                 description TEXT,
-                ranks JSONB
-            )
-            `)
+                ranks JSONB,
+                time TEXT
+            )`)
 
         await db.tx(t => {
             const queries = Object.entries(data).map(([name, upgrade]) =>
                 t.none(
-                    `INSERT INTO power_armor_upgrades(name, base_cost, description, ranks)
-                    VALUES($1, $2, $3, $4)
+                    `INSERT INTO power_armor_upgrades(name, base_cost, description, ranks, time)
+                    VALUES($1, $2, $3, $4, $5)
                     ON CONFLICT (name) DO NOTHING`,
-                    [name, upgrade.base_cost, upgrade.description, upgrade.ranks]
+                    [name,
+                        upgrade.base_cost,
+                        upgrade.description,
+                        upgrade.ranks,
+                        upgrade.time
+                    ]
                 )
             )
             return t.batch(queries)
@@ -106,15 +115,17 @@ async function setupArmor() {
                 slots INTEGER,
                 load INTEGER,
                 str_req INTEGER,
-                description TEXT
+                description TEXT,
+                craft JSONB,
+                repair JSONB
             )
         `)
 
         await db.tx(t => {
             const queries = Object.entries(data).map(([name, armor]) =>
                 t.none(
-                    `INSERT INTO armor(name, base_cost, ac, dt, slots, load, str_req, description)
-                    VALUES($1, $2, $3, $4, $5, $6, $7, $8) 
+                    `INSERT INTO armor(name, base_cost, ac, dt, slots, load, str_req, description, craft, repair)
+                    VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) 
                     ON CONFLICT (name) DO NOTHING`,
                     [name,
                         armor.base_cost,
@@ -123,7 +134,9 @@ async function setupArmor() {
                         armor.slots,
                         armor.load,
                         armor.str_req,
-                        armor.desc
+                        armor.description,
+                        armor.craft,
+                        armor.repair
                     ]
                 )
             )
@@ -140,28 +153,30 @@ async function setupArmorUpgrades() {
     try {
         var data = JSON.parse(await fs.readFile('item-data/armor/armor-upgrades.json'))
 
-        db.none(`
+        await db.none(`
             CREATE TABLE IF NOT EXISTS armor_upgrades (
                 name TEXT PRIMARY KEY,
                 base_cost INTEGER,
                 description TEXT,
-                ranks JSONB
+                ranks JSONB,
+                time TEXT
             )
             `)
 
-        db.tx(t => {
+        await db.tx(t => {
             const queries = Object.entries(data).map(([name, upgrade]) =>
                 t.none(
-                    `INSERT INTO armor_upgrades(name, base_cost, description, ranks)
-                        VALUES ($1, $2, $3, $4)
+                    `INSERT INTO armor_upgrades(name, base_cost, description, ranks, time)
+                        VALUES ($1, $2, $3, $4, $5)
                         ON CONFLICT (name) DO NOTHING`,
                     [name,
                         upgrade.base_cost,
                         upgrade.description,
-                        upgrade.ranks]
+                        upgrade.ranks,
+                        upgrade.time
+                    ]
                 )
             )
-
             return t.batch(queries)
         })
         console.log('Armor Upgrades Data inserted successfully')

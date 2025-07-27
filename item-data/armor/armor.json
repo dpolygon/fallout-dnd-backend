@@ -1,56 +1,143 @@
 {
-    "Cloth": {
-        "base_cost": 50,
-        "AC": 10,
-        "DT": 0,
-        "slots": 8,
-        "load": 5,
-        "str_req": 1,
-        "desc": "Cloth armor doesn’t provide much protection. However, it lends its simplicity to being light and having the most amount of upgrade slots. Most vault suits are considered cloth armor."
+  "Cloth": {
+    "base_cost": 50,
+    "AC": 10,
+    "DT": 0,
+    "slots": 8,
+    "load": 5,
+    "str_req": 1,
+    "description": "Cloth armor doesn’t provide much protection. However, it lends its simplicity to being light and having the most amount of upgrade slots. Most vault suits are considered cloth armor.",
+    "craft": {
+      "dc": 1,
+      "materials": {
+        "cloth": 10
+      },
+      "time": "1 hour"
     },
-    "Leather": {
-        "base_cost": 175,
-        "AC": 11,
-        "DT": 1,
-        "slots": 6,
-        "load": 15,
-        "str_req": 1,
-        "desc": "A jacket, fittings around the arms, knee pads, and boots all fall under leather armor. Leather isn’t very tough but can fit easily around one’s body."
-    },
-    "Metal": {
-        "base_cost": 250,
-        "AC": 12,
-        "DT": 0,
-        "slots": 4,
-        "load": 20,
-        "str_req": 5,
-        "desc": "In the wasteland, you take what you can get. Metal armor is a combination of various pieces that have been welded or fitted around the body. Granting toughness but allowing less coverage."
-    },
-    "Multilayered": {
-        "base_cost": 275,
-        "AC": 10,
-        "DT": 2,
-        "slots": 5,
-        "load": 40,
-        "str_req": 3,
-        "desc": "A combination of vestments. Layers of leather, cloth, tarp, metal, anything lying around to act as armor is considered multilayered. This armor provides maximum coverage but sacrifices toughness."
-    },
-    "Ballistic Weave": {
-        "base_cost": 800,
-        "AC": 12,
-        "DT": 3,
-        "slots": 2,
-        "load": 10,
-        "str_req": 3,
-        "desc": "Bulletproof vests, kevlar, or military grade jackets. Ballistic weave is a pre-war synthetic fiber whose reproduction has been lost with the war. Extremely rare but provides the best of all armor aspects; coverage, toughness, and weight."
-    },
-    "Steel": {
-        "base_cost": 650,
-        "AC": 13,
-        "DT": 2,
-        "slots": 2,
-        "load": 50,
-        "str_req": 6,
-        "desc": "Fitted plates of metal that cover the body like a knight provide a modern solution in the apocalypse for dealing with threats. Steel maximizes coverage and toughness so long as you have the strength."
+    "repair": {
+      "dc": 0,
+      "materials": {
+        "cloth": 2
+      },
+      "time": "5 minutes"
     }
+  },
+  "Leather": {
+    "base_cost": 175,
+    "AC": 11,
+    "DT": 1,
+    "slots": 6,
+    "load": 15,
+    "str_req": 1,
+    "description": "A jacket, fittings around the arms, knee pads, and boots all fall under leather armor. Leather isn’t very tough but can fit easily around one’s body.",
+    "craft": {
+      "dc": 3,
+      "materials": {
+        "leather": 10
+      },
+      "time": "1 hour"
+    },
+    "repair": {
+      "dc": 1,
+      "materials": {
+        "leather": 2
+      },
+      "time": "10 minutes"
+    }
+  },
+  "Scrap Metal": {
+    "base_cost": 250,
+    "AC": 12,
+    "DT": 0,
+    "slots": 4,
+    "load": 20,
+    "str_req": 5,
+    "description": "In the wasteland, you take what you can get. Metal armor is a combination of various pieces that have been welded or fitted around the body. Granting toughness but allowing less coverage.",
+    "craft": {
+      "dc": 3,
+      "materials": {
+        "steel": 10
+      },
+      "time": "1 hour"
+    },
+    "repair": {
+      "dc": 1,
+      "materials": {
+        "steel": 2,
+        "screws": 1
+      },
+      "time": "10 minutes"
+    }
+  },
+  "Multilayered": {
+    "base_cost": 275,
+    "AC": 10,
+    "DT": 2,
+    "slots": 5,
+    "load": 40,
+    "str_req": 3,
+    "description": "A combination of vestments. Layers of leather, cloth, tarp, metal, anything lying around to act as armor is considered multilayered. This armor provides maximum coverage but sacrifices toughness.",
+    "craft": {
+      "dc": 5,
+      "materials": {
+        "cloth": 6,
+        "leather": 6
+      },
+      "time": "2 hours"
+    },
+    "repair": {
+      "dc": 3,
+      "materials": "Any combination of leather and cloth totaling 3 junk items",
+      "time": "10 minutes"
+    }
+  },
+  "Ballistic Weave": {
+    "base_cost": 800,
+    "AC": 12,
+    "DT": 3,
+    "slots": 2,
+    "load": 10,
+    "str_req": 3,
+    "description": "Bulletproof vests, kevlar, or military grade jackets. Ballistic weave is a pre-war synthetic fiber whose reproduction has been lost with the war. Extremely rare but provides the best of all armor aspects; coverage, toughness, and weight.",
+    "craft": {
+      "dc": 20,
+      "materials": {
+        "ballistic fiber": 15
+      },
+      "time": "1 hour"
+    },
+    "repair": {
+      "dc": 10,
+      "materials": {
+        "ballistic fiber": 2
+      },
+      "time": "10 minutes"
+    }
+  },
+  "Steel": {
+    "base_cost": 650,
+    "AC": 13,
+    "DT": 2,
+    "slots": 2,
+    "load": 50,
+    "str_req": 6,
+    "description": "Fitted plates of metal that cover the body like a knight provide a modern solution in the apocalypse for dealing with threats. Steel maximizes coverage and toughness so long as you have the strength.",
+    "craft": {
+      "dc": 10,
+      "materials": {
+        "steel": 20,
+        "screws": 10,
+        "leather": 10
+      },
+      "time": "6 hours"
+    },
+    "repair": {
+      "dc": 5,
+      "materials": {
+        "steel": 2,
+        "leather": 1
+      },
+      "time": "10 minutes"
+    }
+  }
 }

@@ -5,17 +5,39 @@
         "ranks": {
             "1": {
                 "effect": "You gain advantage on sneak checks relying on sight. Your passive sneak increases by 3.",
-                "sneak": 3
+                "sneak": 3,
+                "craft": {
+                    "dc": 6,
+                    "materials": {
+                        "paint": 4
+                    }
+                }
             },
             "2": {
                 "effect": "You gain advantage on sneak checks relying on sound. Your passive sneak increases by 3.",
-                "sneak": 3
+                "sneak": 3,
+                "craft": {
+                    "dc": 10,
+                    "materials": {
+                        "cloth": 5,
+                        "rubber": 4
+                    }
+                }
             },
             "3": {
                 "effect": "While in dim light, you become shadowed. Your passive sneak increases by 3.",
-                "sneak": 3
+                "sneak": 3,
+                "craft": {
+                    "dc": 16,
+                    "materials": {
+                        "adhesive": 3,
+                        "leather": 5,
+                        "paint": 3
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Light": {
         "base_cost": 75,
@@ -24,32 +46,68 @@
             "1": {
                 "effect": "Load reduced by 5. Strength req. reduced by 1.",
                 "load": -5,
-                "str_req": -1
+                "str_req": -1,
+                "craft": {
+                    "dc": 8,
+                    "materials": {}
+                }
             },
             "2": {
                 "effect": "DT reduced by 1. Load reduced by 10 (minimum of 3).",
                 "DT": -1,
-                "load": -10
+                "load": -10,
+                "craft": {
+                    "dc": 13,
+                    "materials": {}
+                }
             },
             "3": {
-                "effect": "If you spend at least 4 AP on your turn to move, you can move an additional 10 feet."
+                "effect": "If you spend at least 4 AP on your turn to move, you can move an additional 10 feet.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "adhesive": 6,
+                        "rubber": 5,
+                        "springs": 4
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Fitted": {
         "base_cost": 175,
         "description": "Tailored for tactical terror. Streamlined plating gives you the edge when things go boom.",
         "ranks": {
             "1": {
-                "effect": "When you take damage from an area of effect, your DT is doubled."
+                "effect": "When you take damage from an area of effect, your DT is doubled.",
+                "craft": {
+                    "dc": 10,
+                    "materials": {
+                        "base": 5
+                    }
+                }
             },
             "2": {
-                "effect": "Your maximum stamina points increase by a number equal to your level."
+                "effect": "Your maximum stamina points increase by a number equal to your level.",
+                "craft": {
+                    "dc": 15,
+                    "materials": {
+                        "base": 5
+                    }
+                }
             },
             "3": {
-                "effect": "You have advantage on combat sequence rolls. If you already have advantage, you gain a +5."
+                "effect": "You have advantage on combat sequence rolls. If you already have advantage, you gain a +5.",
+                "craft": {
+                    "dc": 20,
+                    "materials": {
+                        "base": 8
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Lead Lined": {
         "base_cost": 125,
@@ -57,17 +115,39 @@
         "ranks": {
             "1": {
                 "effect": "Radiation DC decreases by 2.",
-                "radiation_dc": -2
+                "radiation_dc": -2,
+                "craft": {
+                    "dc": 4,
+                    "materials": {
+                        "lead": 6,
+                        "adhesive": 6
+                    }
+                }
             },
             "2": {
                 "effect": "Radiation DC decreases by 2.",
-                "radiation_dc": -2
+                "radiation_dc": -2,
+                "craft": {
+                    "dc": 8,
+                    "materials": {
+                        "lead": 6,
+                        "adhesive": 6
+                    }
+                }
             },
             "3": {
                 "effect": "Radiation DC decreases by 2.",
-                "radiation_dc": -2
+                "radiation_dc": -2,
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "lead": 6,
+                        "adhesive": 6
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Strengthened": {
         "base_cost": 410,
@@ -75,16 +155,38 @@
         "ranks": {
             "1": {
                 "effect": "When you take damage from a critical hit, your DT increases by 3.",
-                "DT": 3
+                "DT": 3,
+                "craft": {
+                    "dc": 6,
+                    "materials": {
+                        "base": 5,
+                        "adhesive": 5
+                    }
+                }
             },
             "2": {
                 "effect": "When you take damage from a critical hit, your DT increases by 5.",
-                "DT": 5
+                "DT": 5,
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "base": 5,
+                        "adhesive": 5
+                    }
+                }
             },
             "3": {
-                "effect": "If you would gain a severe injury, you instead gain a random limb condition."
+                "effect": "If you would gain a severe injury, you instead gain a random limb condition.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "base": 5,
+                        "adhesive": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Sturdy": {
         "base_cost": 475,
@@ -92,16 +194,38 @@
         "ranks": {
             "1": {
                 "effect": "You ignore the negative effects of the first 2 levels of decay for the armor.",
-                "decay_tolerance": 2
+                "decay_tolerance": 2,
+                "craft": {
+                    "dc": 6,
+                    "materials": {
+                        "base": 3,
+                        "adhesive": 3
+                    }
+                }
             },
             "2": {
                 "effect": "You ignore the negative effects of the first 4 levels of decay for the armor.",
-                "decay_tolerance": 4
+                "decay_tolerance": 4,
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "base": 3,
+                        "adhesive": 3
+                    }
+                }
             },
             "3": {
-                "effect": "Your armor no longer decays from being damaged by a critical hit."
+                "effect": "Your armor no longer decays from being damaged by a critical hit.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "base": 5,
+                        "adhesive": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Pocketed": {
         "base_cost": 210,
@@ -109,17 +233,42 @@
         "ranks": {
             "1": {
                 "effect": "Your carry load is increased by 10.",
-                "carry_load": 10
+                "carry_load": 10,
+                "craft": {
+                    "dc": 4,
+                    "materials": {
+                        "cloth": 4,
+                        "leather": 5,
+                        "adhesive": 3
+                    }
+                }
             },
             "2": {
                 "effect": "Your carry load is increased by 15.",
-                "carry_load": 15
+                "carry_load": 15,
+                "craft": {
+                    "dc": 8,
+                    "materials": {
+                        "cloth": 6,
+                        "leather": 8,
+                        "adhesive": 3
+                    }
+                }
             },
             "3": {
                 "effect": "Your carry load is increased by 25.",
-                "carry_load": 25
+                "carry_load": 25,
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "cloth": 8,
+                        "leather": 10,
+                        "adhesive": 4
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Reinforced": {
         "base_cost": 450,
@@ -127,17 +276,42 @@
         "ranks": {
             "1": {
                 "effect": "+1 bonus to DT",
-                "DT": 1
+                "DT": 1,
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "base": 5,
+                        "adhesive": 5,
+                        "screws": 5
+                    }
+                }
             },
             "2": {
                 "effect": "+1 bonus to DT",
-                "DT": 1
+                "DT": 1,
+                "craft": {
+                    "dc": 17,
+                    "materials": {
+                        "base": 5,
+                        "adhesive": 5,
+                        "screws": 5
+                    }
+                }
             },
             "3": {
                 "effect": "+2 bonus to DT",
-                "DT": 2
+                "DT": 2,
+                "craft": {
+                    "dc": 22,
+                    "materials": {
+                        "base": 8,
+                        "adhesive": 8,
+                        "screws": 8
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     },
     "Hardened": {
         "base_cost": 800,
@@ -145,16 +319,41 @@
         "ranks": {
             "1": {
                 "effect": "+1 bonus to AC",
-                "AC": 1
+                "AC": 1,
+                "craft": {
+                    "dc": 14,
+                    "materials": {
+                        "base": 6,
+                        "adhesive": 6,
+                        "screws": 6
+                    }
+                }
             },
             "2": {
                 "effect": "+1 bonus to AC",
-                "AC": 1
+                "AC": 1,
+                "craft": {
+                    "dc": 19,
+                    "materials": {
+                        "base": 6,
+                        "adhesive": 6,
+                        "screws": 6
+                    }
+                }
             },
             "3": {
                 "effect": "+1 bonus to AC",
-                "AC": 1
+                "AC": 1,
+                "craft": {
+                    "dc": 25,
+                    "materials": {
+                        "base": 6,
+                        "adhesive": 6,
+                        "screws": 6
+                    }
+                }
             }
-        }
+        },
+        "time": "1 hour"
     }
 }

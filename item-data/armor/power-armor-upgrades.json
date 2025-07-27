@@ -4,40 +4,116 @@
         "description": "Worried about becoming meat confetti? Reinforced plating and sand-packed gaps help your suit shrug off blast damage like a grizzled NCR Ranger shrugs off bureaucracy.",
         "ranks": {
             "1": {
-                "effect": "Reduce explosive damage taken by 5"
+                "effect": "Reduce explosive damage taken by 5",
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "adhesive": 5,
+                        "aluminum": 4,
+                        "ceramic": 5
+                    }
+                }
             },
             "2": {
-                "effect": "Reduce explosive damage taken by 10"
+                "effect": "Reduce explosive damage taken by 10",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "adhesive": 5,
+                        "aluminum": 4,
+                        "ceramic": 5
+                    }
+                }
             },
             "3": {
-                "effect": "Reduce explosive damage taken by 15"
+                "effect": "Reduce explosive damage taken by 15",
+                "craft": {
+                    "dc": 24,
+                    "materials": {
+                        "adhesive": 5,
+                        "aluminum": 4,
+                        "ceramic": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Prism Shielding": {
         "base_cost": 1800,
         "description": "Refracts hostile energy like your grandma's ugly crystal chandelier. Good for surviving Brotherhood patrols with itchy trigger fingers.",
         "ranks": {
             "1": {
-                "effect": "Reduce laser and plasma damage taken by 5"
+                "effect": "Reduce laser and plasma damage taken by 5",
+                "craft": {
+                    "dc": 12,
+                    "science": 6,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 2,
+                        "nuclear material": 4,
+                        "rubber": 4
+                    }
+                }
             },
             "2": {
-                "effect": "Reduce laser and plasma damage taken by 5"
+                "effect": "Reduce laser and plasma damage taken by 5",
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 2,
+                        "nuclear material": 4,
+                        "rubber": 4
+                    }
+                }
             },
             "3": {
-                "effect": "Reduce laser and plasma damage taken by 10"
+                "effect": "Reduce laser and plasma damage taken by 10",
+                "craft": {
+                    "dc": 24,
+                    "science": 12,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 2,
+                        "nuclear material": 4,
+                        "rubber": 4
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Emergency Protocols": {
         "base_cost": 1800,
         "description": "When you're leaking blood like a busted Nuka-Cola, this system kicks in to keep you moving—because dying in style is still dying.",
         "ranks": {
             "1": {
-                "effect": "If you start your turn with less than half your hit points, you can spend 1 AP to move 10 feet."
+                "effect": "If you start your turn with less than half your hit points, you can spend 1 AP to move 10 feet.",
+                "craft": {
+                    "dc": 12,
+                    "science": 6,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 7,
+                        "circuitry": 10,
+                        "nuclear material": 9
+                    }
+                }
             },
             "2": {
-                "effect": "If you start your turn with less than half your hit points, your DT increases by 5 (only for damage against HP)."
+                "effect": "If you start your turn with less than half your hit points, your DT increases by 5 (only for damage against HP).",
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 7,
+                        "circuitry": 10,
+                        "nuclear material": 9
+                    }
+                }
             }
         }
     },
@@ -46,63 +122,178 @@
         "description": "Finally, a reason to get punched. Converts blunt trauma into sweet, sweet AP. Don't worry—your pain is productive now.",
         "ranks": {
             "1": {
-                "effect": "You gain an additional AP at the start of your turn for each level of decay the power armor gained since your last turn."
+                "effect": "You gain an additional AP at the start of your turn for each level of decay the power armor gained since your last turn.",
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 5,
+                        "ceramic": 5,
+                        "rubber": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Tesla Coils": {
         "base_cost": 2400,
         "description": "Electrify your surroundings with every angry footstep. It's like hugging a deathclaw made of lightning. Shock therapy included.",
         "ranks": {
             "1": {
-                "effect": "Spend 3 AP to activate or deactivate, each creature within 10 feet takes 1d6 electricity damage when activated and at the start of their turns. Removes 10 minutes from allotted time per round active."
+                "effect": "Spend 3 AP to activate or deactivate, each creature within 10 feet takes 1d6 electricity damage when activated and at the start of their turns. Removes 10 minutes from allotted time per round active.",
+                "craft": {
+                    "dc": 12,
+                    "science": 8,
+                    "materials": {
+                        "adhesive": 9,
+                        "aluminum": 7,
+                        "copper": 10,
+                        "fiber optics": 5,
+                        "rubber": 10
+                    }
+                }
             },
             "2": {
-                "effect": "Electricity damage increases by 1d6."
+                "effect": "Electricity damage increases by 1d6.",
+                "craft": {
+                    "dc": 18,
+                    "science": 11,
+                    "materials": {
+                        "adhesive": 9,
+                        "aluminum": 7,
+                        "copper": 10,
+                        "fiber optics": 5,
+                        "rubber": 10
+                    }
+                }
             },
             "3": {
-                "effect": "Electricity damage increases by 2d6."
+                "effect": "Electricity damage increases by 2d6.",
+                "craft": {
+                    "dc": 24,
+                    "science": 14,
+                    "materials": {
+                        "adhesive": 9,
+                        "aluminum": 7,
+                        "copper": 10,
+                        "fiber optics": 5,
+                        "rubber": 10
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Reactive Plates": {
         "base_cost": 2700,
         "description": "Turns every hit into an aggressive refund policy. Great for brawls, riots, or family gatherings.",
         "ranks": {
             "1": {
-                "effect": "When you take damage from a melee attack, the attacker takes a quarter (rounded down) of the damage they dealt."
+                "effect": "When you take damage from a melee attack, the attacker takes a quarter (rounded down) of the damage they dealt.",
+                "craft": {
+                    "dc": 14,
+                    "materials": {
+                        "adhesive": 9,
+                        "aluminum": 7,
+                        "asbestos": 7,
+                        "nuclear material": 9
+                    }
+                }
             },
             "2": {
-                "effect": "The attacker takes another quarter (rounded down) of the damage they dealt (effectively half total)."
+                "effect": "The attacker takes another quarter (rounded down) of the damage they dealt (effectively half total).",
+                "craft": {
+                    "dc": 20,
+                    "materials": {
+                        "adhesive": 9,
+                        "aluminum": 7,
+                        "asbestos": 7,
+                        "nuclear material": 9
+                    }
+                }
             },
             "3": {
-                "effect": "When you take damage from a melee attack, the attacker is knocked back 15 feet."
+                "effect": "When you take damage from a melee attack, the attacker is knocked back 15 feet.",
+                "craft": {
+                    "dc": 26,
+                    "materials": {
+                        "adhesive": 9,
+                        "aluminum": 7,
+                        "asbestos": 7,
+                        "nuclear material": 9
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Core Assembly": {
         "base_cost": 2250,
         "description": "Reengineered for the operator who treats overheating as a suggestion, not a limit. Push your fusion core like a pre-War manager pushing overtime.",
         "ranks": {
             "1": {
-                "effect": "Spending more than 18 AP on your turn causes overheating instead of 15."
+                "effect": "Spending more than 18 AP on your turn causes overheating instead of 15.",
+                "craft": {
+                    "dc": 12,
+                    "science": 6,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 9,
+                        "circuitry": 5,
+                        "nuclear material": 5
+                    }
+                }
             },
             "2": {
-                "effect": "Spending more than 20 AP on your turn causes overheating instead of 15."
+                "effect": "Spending more than 20 AP on your turn causes overheating instead of 15.",
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 9,
+                        "circuitry": 5,
+                        "nuclear material": 5
+                    }
+                }
             },
             "3": {
-                "effect": "Overheating requires 15 minutes of allotted time loss instead of 30."
+                "effect": "Overheating requires 15 minutes of allotted time loss instead of 30.",
+                "craft": {
+                    "dc": 24,
+                    "science": 12,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 9,
+                        "circuitry": 5,
+                        "nuclear material": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Jet Pack": {
         "base_cost": 6000,
         "description": "Forget stairs. Soar through the Wastes like a rusted god.",
         "ranks": {
             "1": {
-                "effect": "You can spend 1 AP on your turn to fly 5 feet upwards. For every 5 feet you fly you..."
+                "effect": "You can spend 1 AP on your turn to fly 5 feet upwards. For every 5 feet you fly you...",
+                "craft": {
+                    "dc": 20,
+                    "science": 12,
+                    "materials": {
+                        "adhesive": 5,
+                        "aluminum": 9,
+                        "asbestos": 8,
+                        "nuclear material": 10
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Sensor Array": {
         "base_cost": 4500,
@@ -110,89 +301,246 @@
         "ranks": {
             "1": {
                 "effect": "Passive sense increases by 5.",
-                "passive_sense": 5
+                "passive_sense": 5,
+                "craft": {
+                    "dc": 12,
+                    "science": 6,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 5,
+                        "fiberglass": 4,
+                        "fiber optics": 4
+                    }
+                }
             },
             "2": {
                 "effect": "Passive sense increases by 5.",
-                "passive_sense": 5
+                "passive_sense": 5,
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 5,
+                        "fiberglass": 4,
+                        "fiber optics": 4
+                    }
+                }
             },
             "3": {
                 "effect": "Passive sense increases by 10.",
-                "passive_sense": 10
+                "passive_sense": 10,
+                "craft": {
+                    "dc": 24,
+                    "science": 12,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 5,
+                        "fiberglass": 4,
+                        "fiber optics": 4
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "VATS Matrix Overlay": {
         "base_cost": 2700,
         "description": "Optimized for precision targeting. Because wasting AP is for Radroaches with no dreams.",
         "ranks": {
             "1": {
-                "effect": "Whenever you make a targeted attack roll, reduce the additional AP cost by 1."
+                "effect": "Whenever you make a targeted attack roll, reduce the additional AP cost by 1.",
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 3,
+                        "circuitry": 4,
+                        "fiber optics": 3
+                    }
+                }
             },
             "2": {
-                "effect": "Whenever you make a targeted attack roll, reduce the additional AP cost by 1."
+                "effect": "Whenever you make a targeted attack roll, reduce the additional AP cost by 1.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 3,
+                        "circuitry": 4,
+                        "fiber optics": 3
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Internal Database": {
         "base_cost": 2400,
         "description": "Why ask questions when your armor can do the math for you? A stalker's best friend.",
         "ranks": {
             "1": {
-                "effect": "If you can see a creature, you can spend 6 AP on your turn to learn its HP total, SP total, AC, or DT."
+                "effect": "If you can see a creature, you can spend 6 AP on your turn to learn its HP total, SP total, AC, or DT.",
+                "craft": {
+                    "dc": 10,
+                    "science": 3,
+                    "materials": {
+                        "adhesive": 6,
+                        "crystal": 6,
+                        "circuitry": 5,
+                        "fiber optics": 4
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Targeting HUD": {
         "base_cost": 1800,
         "description": "Highlights enemies like a pre-War power point presentation, only with more bullets and fewer corporate lies.",
         "ranks": {
             "1": {
-                "effect": "If you can see a creature, you can spend 3 AP to mark it. Only one marked creature at a time. Deal an additional damage die to marked creatures."
+                "effect": "If you can see a creature, you can spend 3 AP to mark it. Only one marked creature at a time. Deal an additional damage die to marked creatures.",
+                "craft": {
+                    "dc": 12,
+                    "science": 6,
+                    "materials": {
+                        "adhesive": 6,
+                        "aluminum": 5,
+                        "circuitry": 6,
+                        "copper": 4
+                    }
+                }
             },
             "2": {
-                "effect": "You can mark up to two more creatures. Deal an additional damage die to marked creatures."
+                "effect": "You can mark up to two more creatures. Deal an additional damage die to marked creatures.",
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 6,
+                        "aluminum": 5,
+                        "circuitry": 6,
+                        "copper": 4
+                    }
+                }
+            },
+            "3": {
+                "effect": "Whenever you deal damage to a marked creature, you deal an additional die of damage.",
+                "craft": {
+                    "dc": 24,
+                    "science": 12,
+                    "materials": {
+                        "adhesive": 6,
+                        "aluminum": 5,
+                        "circuitry": 6,
+                        "copper": 4
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Headlamp": {
         "base_cost": 250,
         "description": "Shine brighter than Liberty Prime's patriotism. Great for spelunking or blinding your enemies with poor night vision.",
         "ranks": {
             "1": {
-                "effect": "Spend 1 AP to turn on your headlamp. Shines bright light in 40 ft cone and dim light for an additional 40 ft."
+                "effect": "Spend 1 AP to turn on your headlamp. Shines bright light in 40 ft cone and dim light for an additional 40 ft.",
+                "craft": {
+                    "dc": 10,
+                    "materials": {
+                        "adhesive": 1,
+                        "copper": 1,
+                        "fiber optics": 1
+                    }
+                }
             },
             "2": {
-                "effect": "Bright and dim light both shine an additional 10 feet."
+                "effect": "Bright and dim light both shine an additional 10 feet.",
+                "craft": {
+                    "dc": 14,
+                    "materials": {
+                        "adhesive": 1,
+                        "copper": 1,
+                        "fiber optics": 1
+                    }
+                }
             },
             "3": {
-                "effect": "Bright and dim light both shine an additional 10 feet. If turned on in darkness, creatures within 5 feet are blinded for one round."
+                "effect": "Bright and dim light both shine an additional 10 feet. If turned on in darkness, creatures within 5 feet are blinded for one round.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "adhesive": 1,
+                        "copper": 1,
+                        "fiber optics": 1
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Rusty Knuckles": {
         "base_cost": 100,
         "description": "It's tetanus time!",
         "ranks": {
             "1": {
-                "effect": "If you hit a creature with an unarmed attack, they bleed."
+                "effect": "If you hit a creature with an unarmed attack, they bleed.",
+                "craft": {
+                    "dc": 10,
+                    "materials": {
+                        "adhesive": 3,
+                        "cloth": 8,
+                        "steel": 6
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Optimized Bracers": {
         "base_cost": 1700,
         "description": "Punch harder. Punch louder. Punch like your enemy owes you money.",
         "ranks": {
             "1": {
-                "effect": "Spend 6 AP on your turn to make a powerful unarmed attack that deals 2d6 bludgeoning damage."
+                "effect": "Spend 6 AP on your turn to make a powerful unarmed attack that deals 2d6 bludgeoning damage.",
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "adhesive": 3,
+                        "aluminum": 4,
+                        "ceramic": 3,
+                        "steel": 3
+                    }
+                }
             },
             "2": {
-                "effect": "The damage increases by 1d6."
+                "effect": "The damage increases by 1d6.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "adhesive": 3,
+                        "aluminum": 4,
+                        "ceramic": 3,
+                        "steel": 3
+                    }
+                }
             },
             "3": {
-                "effect": "The damage increases by 1d6 and pushes targets 15 feet back."
+                "effect": "The damage increases by 1d6 and pushes targets 15 feet back.",
+                "craft": {
+                    "dc": 24,
+                    "materials": {
+                        "adhesive": 3,
+                        "aluminum": 4,
+                        "ceramic": 3,
+                        "steel": 3
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Calibrated Shocks": {
         "base_cost": 1000,
@@ -200,33 +548,92 @@
         "ranks": {
             "1": {
                 "effect": "Carry Load increases by 15.",
-                "carry_weight": 15
+                "carry_weight": 15,
+                "craft": {
+                    "dc": 12,
+                    "science": 6,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 7,
+                        "fiberglass": 5
+                    }
+                }
             },
             "2": {
                 "effect": "Carry Load increases by 15.",
-                "carry_weight": 15
+                "carry_weight": 15,
+                "craft": {
+                    "dc": 18,
+                    "science": 9,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 7,
+                        "fiberglass": 5
+                    }
+                }
             },
             "3": {
                 "effect": "Carry Load increases by 20.",
-                "carry_weight": 20
+                "carry_weight": 20,
+                "craft": {
+                    "dc": 24,
+                    "science": 12,
+                    "materials": {
+                        "adhesive": 4,
+                        "aluminum": 7,
+                        "fiberglass": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Overclock Hydraulics": {
         "base_cost": 1950,
         "description": "Turn your armor into a volcanic tantrum. Who needs moderation when you can become a walking furnace of regret?",
         "ranks": {
             "1": {
-                "effect": "While overheated, max AP increases by 2, advantage on all attack rolls, move 15 feet with 1 AP, unarmed attacks deal 3d6 fire damage."
+                "effect": "While overheated, max AP increases by 2, advantage on all attack rolls, move 15 feet with 1 AP, unarmed attacks deal 3d6 fire damage.",
+                "craft": {
+                    "dc": 12,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 9,
+                        "circuitry": 5,
+                        "oil": 6,
+                        "nuclear material": 5
+                    }
+                }
             },
             "2": {
-                "effect": "You can spend 3 AP to overheat the fusion core."
+                "effect": "You can spend 3 AP to overheat the fusion core.",
+                "craft": {
+                    "dc": 18,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 9,
+                        "circuitry": 5,
+                        "oil": 6,
+                        "nuclear material": 5
+                    }
+                }
             },
             "3": {
                 "effect": "Your maximum AP increases by 2.",
-                "max_ap": 2
+                "max_ap": 2,
+                "craft": {
+                    "dc": 24,
+                    "materials": {
+                        "adhesive": 7,
+                        "aluminum": 9,
+                        "circuitry": 5,
+                        "oil": 6,
+                        "nuclear material": 5
+                    }
+                }
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Explosive Vent": {
         "base_cost": 1250,
@@ -241,11 +648,13 @@
             "3": {
                 "effect": "The radius increases by 10 feet."
             }
-        }
+        },
+        "time": "3 hours"
     },
     "Super Mutant Fitting": {
         "base_cost": 0,
         "description": "Because not all heroes are human. Custom fitted for big green bastards who don't skip neck day.",
-        "effect": "Armor modified for super mutants only; humans and ghouls cannot use it. Requires same price/materials to remove."
+        "effect": "Armor modified for super mutants only; humans and ghouls cannot use it. Requires same price/materials to remove.",
+        "time": "3 hours"
     }
 }
