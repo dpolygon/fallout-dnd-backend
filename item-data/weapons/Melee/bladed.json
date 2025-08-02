@@ -1,0 +1,409 @@
+[
+    {
+        "name": "Shiv",
+        "cost": 65,
+        "AP": 3,
+        "damage": [
+            "1d4 piercing"
+        ],
+        "crit": [
+            "x2"
+        ],
+        "traits": [
+            "Fragile"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 1,
+        "str_req": 1
+    },
+    {
+        "name": "Knife",
+        "cost": 200,
+        "AP": 3,
+        "damage": [
+            "1d6 piercing or slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Thrown ; x3/x6"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 2
+    },
+    {
+        "name": "Switchblade",
+        "cost": 120,
+        "AP": 3,
+        "damage": [
+            "1d6 piercing or slashing"
+        ],
+        "crit": [
+            "x2"
+        ],
+        "traits": [
+            "Fragile",
+            "Weighted"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 1
+    },
+    {
+        "name": "Sharpened Pole",
+        "cost": 85,
+        "AP": 5,
+        "damage": [
+            "1d4 piercing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Fragile",
+            "Reach",
+            "Thrown: x6/x10"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 4,
+        "str_req": 2
+    },
+    {
+        "name": "Combat Knife",
+        "cost": 220,
+        "AP": 3,
+        "damage": [
+            "2d4 piercing or slashing"
+        ],
+        "crit": [
+            "x3",
+            "Applies bleeding"
+        ],
+        "traits": [
+            "Thrown: x3/x8"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 3,
+        "str_req": 2
+    },
+    {
+        "name": "Throwing Knife",
+        "cost": 80,
+        "AP": 4,
+        "damage": [
+            "1d4 piercing"
+        ],
+        "crit": [
+            "x3",
+            "Applies bleeding"
+        ],
+        "traits": [
+            "Fragile",
+            "Thrown: x4/x8",
+            "If thrown, damage die increases to 1d6"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 2
+    },
+    {
+        "name": "Spear",
+        "cost": 140,
+        "AP": 4,
+        "damage": [
+            "1d10 piercing or slashing"
+        ],
+        "crit": [
+            "x2"
+        ],
+        "traits": [
+            "Reach",
+            "Thrown: x6/x10"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 2
+    },
+    {
+        "name": "Sword",
+        "cost": 195,
+        "AP": 4,
+        "damage": [
+            "2d6 piercing or slashing"
+        ],
+        "crit": [
+            "x2"
+        ],
+        "traits": [
+            "Defensive"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 4,
+        "str_req": 3
+    },
+    {
+        "name": "Plastic Bumper Sword",
+        "cost": 265,
+        "AP": 6,
+        "damage": [
+            "3d6 slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Two Handed",
+            "Cleave",
+            "Reach"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 10,
+        "str_req": 8
+    },
+    {
+        "name": "Steel Bumper Sword",
+        "cost": 415,
+        "AP": 6,
+        "damage": [
+            "10d6 slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Two Handed",
+            "Slow",
+            "Cleaves",
+            "Weighted",
+            "Reach"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 30,
+        "str_req": 10
+    },
+    {
+        "name": "Cleaver",
+        "cost": 175,
+        "AP": 5,
+        "damage": [
+            "1d6 slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Debilitating",
+            "Weighted"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 4
+    },
+    {
+        "name": "Fire Axe",
+        "cost": 270,
+        "AP": 6,
+        "damage": [
+            "2d10 slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Two Handed",
+            "Weighted",
+            "Sturdy"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 5,
+        "str_req": 6
+    },
+    {
+        "name": "Hatchet",
+        "cost": 200,
+        "AP": 4,
+        "damage": [
+            "2d6 piercing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Thrown: x4/x8"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 4
+    },
+    {
+        "name": "Machete",
+        "cost": 165,
+        "AP": 4,
+        "damage": [
+            "2d4 slashing"
+        ],
+        "crit": [
+            "x3",
+            "Bleeding"
+        ],
+        "traits": [
+            "Sturdy"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 3,
+        "str_req": 4
+    },
+    {
+        "name": "Assaultron Blade",
+        "cost": 225,
+        "AP": 5,
+        "damage": [
+            "3d4 piercing or slashing"
+        ],
+        "crit": [
+            "x3",
+            "Bleeding"
+        ],
+        "traits": [
+            "Sturdy",
+            "Defensive"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 4,
+        "str_req": 5
+    },
+    {
+        "name": "Mr. Handy Buzz Blade",
+        "cost": 220,
+        "AP": 5,
+        "damage": [
+            "1d10 slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Weighted",
+            "Mangle"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 4,
+        "str_req": 5
+    },
+    {
+        "name": "Guitar Sword",
+        "cost": 160,
+        "AP": 5,
+        "damage": [
+            "1d8 slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Defensive",
+            "The first six times the weapon gains a level of decay you take 1 damage."
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 5,
+        "str_req": 5
+    },
+    {
+        "name": "Sickle",
+        "cost": 130,
+        "AP": 4,
+        "damage": [
+            "1d8 piercing"
+        ],
+        "crit": [
+            "Roll >= 19",
+            "Bleeding"
+        ],
+        "traits": [
+            "Defensive",
+            "Debilitating"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 2,
+        "str_req": 2
+    },
+    {
+        "name": "Ski Sword",
+        "cost": 210,
+        "AP": 4,
+        "damage": [
+            "2d4 slashing"
+        ],
+        "crit": [
+            "x4"
+        ],
+        "traits": [
+            "Defensive",
+            "Sturdy",
+            "If you have two, you can ski"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 4,
+        "str_req": 5
+    },
+    {
+        "name": "Pickaxe",
+        "cost": 265,
+        "AP": 6,
+        "damage": [
+            "3d6 piercing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Two Handed",
+            "Weighted",
+            "Sturdy"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 6,
+        "str_req": 6
+    },
+    {
+        "name": "Pitchfork",
+        "cost": 290,
+        "AP": 5,
+        "damage": [
+            "4d4 piercing or slashing"
+        ],
+        "crit": [
+            "x3"
+        ],
+        "traits": [
+            "Reach",
+            "Debilitating"
+        ],
+        "ammo": "",
+        "depleted": "",
+        "load": 5,
+        "str_req": 3
+    }
+]

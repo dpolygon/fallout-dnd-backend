@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Cattle Prod",
+    "cost": 210,
+    "AP": 4,
+    "damage": [
+      "1d4 bludgeoning",
+      "2d8 electricity"
+    ],
+    "crit": [
+      "Dazed"
+    ],
+    "traits": [],
+    "ammo": "Energy Cells, 10 rounds",
+    "depleted": "1d4 bludgeoning",
+    "load": 3,
+    "str_req": 3
+  },
+  {
+    "name": "Ripper",
+    "cost": 410,
+    "AP": 3,
+    "damage": [
+      "3d8 slashing"
+    ],
+    "crit": [
+      "1d8"
+    ],
+    "traits": [
+      "Debilitating",
+      "Mangle"
+    ],
+    "ammo": "Energy Cells, 10 rounds",
+    "depleted": "1d4 bludgeoning",
+    "load": 4,
+    "str_req": 6
+  },
+  {
+    "name": "Chainsaw",
+    "cost": 670,
+    "AP": 6,
+    "damage": [
+      "6d8 slashing"
+    ],
+    "crit": [
+      "3d8"
+    ],
+    "traits": [
+      "Debilitating",
+      "Two-Handed",
+      "Mangle"
+    ],
+    "ammo": "Energy Cells, 5 rounds",
+    "depleted": "1d8 bludgeoning",
+    "load": 20,
+    "str_req": 8
+  },
+  {
+    "name": "Drill",
+    "cost": 190,
+    "AP": 4,
+    "damage": [
+      "1d8 slashing"
+    ],
+    "crit": [
+      "Roll >= 19",
+      "Bleeding"
+    ],
+    "traits": [
+      "Debilitating",
+      "Mangle"
+    ],
+    "ammo": "Energy Cells, 20 rounds",
+    "depleted": "1d4 piercing",
+    "load": 5,
+    "str_req": 5
+  },
+  {
+    "name": "Plasma Cutter",
+    "cost": 750,
+    "AP": 5,
+    "damage": [
+      "4d8 plasma"
+    ],
+    "crit": [
+      "20",
+      "Applies severe arm or leg condition"
+    ],
+    "traits": [
+      "Dismember"
+    ],
+    "ammo": "Microfusion Cells, 5 rounds",
+    "depleted": "1d6 bludgeoning",
+    "load": 8,
+    "str_req": 5
+  },
+  {
+    "name": "Shishkebab",
+    "cost": 690,
+    "AP": 4,
+    "damage": [
+      "2d6 slashing",
+      "2d6 fire"
+    ],
+    "crit": [
+      "x2",
+      "Burning"
+    ],
+    "traits": [
+      "Debilitating",
+      "Dismember",
+      "Defensive"
+    ],
+    "ammo": "Flamer fuel, 10 rounds",
+    "depleted": "2d6 slashing",
+    "load": 6,
+    "str_req": 5
+  }
+]

@@ -654,7 +654,11 @@
     "Super Mutant Fitting": {
         "base_cost": 0,
         "description": "Because not all heroes are human. Custom fitted for big green bastards who don't skip neck day.",
-        "effect": "Armor modified for super mutants only; humans and ghouls cannot use it. Requires same price/materials to remove.",
+        "ranks": {
+            "1": {
+                "effect": "Armor modified for super mutants only; humans and ghouls cannot use it. Requires same price/materials to remove."
+            }
+        },
         "time": "3 hours"
     }
 }

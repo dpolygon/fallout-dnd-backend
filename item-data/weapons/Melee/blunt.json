@@ -1,0 +1,415 @@
+[
+  {
+    "name": "Police Baton",
+    "cost": 105,
+    "AP": 4,
+    "damage": [
+      "1d6 bludgeoning"
+    ],
+    "crit": [
+      "1d6"
+    ],
+    "traits": [
+      "Sturdy"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 2,
+    "str_req": 1
+  },
+  {
+    "name": "Wrench",
+    "cost": 140,
+    "AP": 4,
+    "damage": [
+      "2d4 bludgeoning"
+    ],
+    "crit": [
+      "4d4"
+    ],
+    "traits": [
+      "Sturdy"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 3,
+    "str_req": 2
+  },
+  {
+    "name": "Crowbar",
+    "cost": 335,
+    "AP": 6,
+    "damage": [
+      "2d10 bludgeoning"
+    ],
+    "crit": [
+      "4d10"
+    ],
+    "traits": [
+      "Weighted",
+      "Durable",
+      "Defensive",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 18,
+    "str_req": 6
+  },
+  {
+    "name": "Sledgehammer",
+    "cost": 215,
+    "AP": 6,
+    "damage": [
+      "1d12 bludgeoning"
+    ],
+    "crit": [
+      "3d12",
+      "Dazed"
+    ],
+    "traits": [
+      "Sturdy",
+      "Weighted",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 22,
+    "str_req": 7
+  },
+  {
+    "name": "Baseball Bat",
+    "cost": 200,
+    "AP": 5,
+    "damage": [
+      "3d4 bludgeoning"
+    ],
+    "crit": [
+      "2d4",
+      "Push back 5 ft."
+    ],
+    "traits": [
+      "Weighted",
+      "Sturdy",
+      "Defensive",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 4,
+    "str_req": 4
+  },
+  {
+    "name": "Super Sledge",
+    "cost": 310,
+    "AP": 6,
+    "damage": [
+      "3d12 bludgeoning"
+    ],
+    "crit": [
+      "3d12",
+      "Dazed"
+    ],
+    "traits": [
+      "Weighted",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 26,
+    "str_req": 8
+  },
+  {
+    "name": "9 Iron",
+    "cost": 130,
+    "AP": 5,
+    "damage": [
+      "1d8 bludgeoning"
+    ],
+    "crit": [
+      "1d6",
+      "Prone"
+    ],
+    "traits": [
+      "Weighted",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 4,
+    "str_req": 3
+  },
+  {
+    "name": "Dress Cane",
+    "cost": 115,
+    "AP": 4,
+    "damage": [
+      "1d4 bludgeoning"
+    ],
+    "crit": [
+      "3d4",
+      "Prone"
+    ],
+    "traits": [
+      "Defensive"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 2,
+    "str_req": 2
+  },
+  {
+    "name": "Lead Pipe",
+    "cost": 130,
+    "AP": 5,
+    "damage": [
+      "1d8 bludgeoning"
+    ],
+    "crit": [
+      "1d6"
+    ],
+    "traits": [
+      "Sturdy",
+      "Defensive"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 6,
+    "str_req": 5
+  },
+  {
+    "name": "Rolling Pin",
+    "cost": 125,
+    "AP": 4,
+    "damage": [
+      "1d6 bludgeoning"
+    ],
+    "crit": [
+      "2d6"
+    ],
+    "traits": [
+      "Weighted",
+      "Breakable",
+      "Defensive"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 3,
+    "str_req": 4
+  },
+  {
+    "name": "Shovel",
+    "cost": 255,
+    "AP": 4,
+    "damage": [
+      "3d4 bludgeoning or slashing"
+    ],
+    "crit": [
+      "x3"
+    ],
+    "traits": [
+      "Weighted",
+      "Two Handed",
+      "Defensive"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 8,
+    "str_req": 4
+  },
+  {
+    "name": "Tire Iron",
+    "cost": 100,
+    "AP": 4,
+    "damage": [
+      "1d6 bludgeoning"
+    ],
+    "crit": [
+      "1d4",
+      "Prone"
+    ],
+    "traits": [
+      "Weighted"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 2,
+    "str_req": 2
+  },
+  {
+    "name": "Pool Cue",
+    "cost": 125,
+    "AP": 5,
+    "damage": [
+      "1d6 bludgeoning"
+    ],
+    "crit": [
+      "3d6"
+    ],
+    "traits": [
+      "Weighted",
+      "Breakable",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 2,
+    "str_req": 3
+  },
+  {
+    "name": "Bone Club",
+    "cost": 145,
+    "AP": 4,
+    "damage": [
+      "1d8 bludgeoning"
+    ],
+    "crit": [
+      "1d6"
+    ],
+    "traits": [
+      "Debilitating",
+      "Sturdy"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 2,
+    "str_req": 4
+  },
+  {
+    "name": "Commie Whacker",
+    "cost": 15,
+    "AP": 4,
+    "damage": [
+      "1 bludgeoning"
+    ],
+    "crit": [
+      "+2"
+    ],
+    "traits": [
+      "If the target admits they are a communist, the weapon always critically hits"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 2,
+    "str_req": 1
+  },
+  {
+    "name": "Paddle Ball",
+    "cost": 11,
+    "AP": 2,
+    "damage": [
+      "1 bludgeoning"
+    ],
+    "crit": [
+      "+1"
+    ],
+    "traits": [
+      "Fragile"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 1,
+    "str_req": 2
+  },
+  {
+    "name": "Board",
+    "cost": 115,
+    "AP": 4,
+    "damage": [
+      "1d8 bludgeoning"
+    ],
+    "crit": [
+      "1d8"
+    ],
+    "traits": [
+      "Weighted",
+      "Breakable",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 10,
+    "str_req": 5
+  },
+  {
+    "name": "Board with a Nail",
+    "cost": 125,
+    "AP": 4,
+    "damage": [
+      "1d8 + 1 bludgeoning"
+    ],
+    "crit": [
+      "1d8"
+    ],
+    "traits": [
+      "Weighted",
+      "Breakable",
+      "Two Handed"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 10,
+    "str_req": 5
+  },
+  {
+    "name": "Protest Sign",
+    "cost": 50,
+    "AP": 5,
+    "damage": [
+      "1d4 bludgeoning"
+    ],
+    "crit": [
+      "Pushed back 5 feet"
+    ],
+    "traits": [
+      "Two Handed",
+      "Breakable"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 6,
+    "str_req": 3
+  },
+  {
+    "name": "Stop Sign",
+    "cost": 350,
+    "AP": 6,
+    "damage": [
+      "5d8 bludgeoning or slashing",
+      "Dazed"
+    ],
+    "crit": [
+      "x3"
+    ],
+    "traits": [
+      "Dazed",
+      "Two Handed",
+      "Slow",
+      "Reach"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 45,
+    "str_req": 9
+  },
+  {
+    "name": "War Drum",
+    "cost": 100,
+    "AP": 4,
+    "damage": [
+      "1d10 bludgeoning"
+    ],
+    "crit": [
+      "1d10",
+      "Deafens for 1 round"
+    ],
+    "traits": [
+      "Two Handed",
+      "Breakable"
+    ],
+    "ammo": "",
+    "depleted": "",
+    "load": 8,
+    "str_req": 6
+  }
+]

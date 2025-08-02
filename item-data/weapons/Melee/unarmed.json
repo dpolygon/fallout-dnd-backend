@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Brass Knuckles",
+    "cost": 150,
+    "AP": 4,
+    "damage": ["1d4 + 1 bludgeoning"],
+    "crit": ["4d4"],
+    "traits": ["Unarmed", "Durable", "Weighted"],
+    "load": 3,
+    "str_req": 5
+  },
+  {
+    "name": "Spiked Knuckles",
+    "cost": 120,
+    "AP": 4,
+    "damage": ["1d4 + 1 piercing"],
+    "crit": ["Roll >= 19", "Bleeding"],
+    "traits": ["Unarmed"],
+    "load": 2,
+    "str_req": 4
+  },
+  {
+    "name": "Boxing Gloves",
+    "cost": 115,
+    "AP": 4,
+    "damage": ["1d4 bludgeoning"],
+    "crit": ["1d4", "Dazed"],
+    "traits": ["Defensive", "Sturdy", "Unarmed"],
+    "load": 4,
+    "str_req": 3
+  },
+  {
+    "name": "Bear Skull Arm",
+    "cost": 190,
+    "AP": 6,
+    "damage": ["3d6 piercing or slashing"],
+    "crit": ["x2", "Bleeding"],
+    "traits": ["Unarmed", "Debilitating", "Defensive"],
+    "load": 10,
+    "str_req": 5
+  },
+  {
+    "name": "Deathclaw Gauntlet",
+    "cost": 280,
+    "AP": 6,
+    "damage": ["3d12 slashing"],
+    "crit": ["1d12"],
+    "traits": ["Unarmed", "Debilitating", "Mangle", "Defensive"],
+    "load": 6,
+    "str_req": 5
+  },
+  {
+    "name": "Hunting Trap Fist",
+    "cost": 265,
+    "AP": 5,
+    "damage": ["4d4 piercing"],
+    "crit": ["x2"],
+    "traits": ["Clasp", "Debilitating", "Defensive", "Mangle", "Unarmed"],
+    "load": 20,
+    "str_req": 8
+  },
+  {
+    "name": "Bear Trap Fist",
+    "cost": 320,
+    "AP": 6,
+    "damage": ["3d12 piercing"],
+    "crit": ["x2"],
+    "traits": ["Clasp", "Debilitating", "Defensive", "Mangle", "Unarmed"],
+    "load": 40,
+    "str_req": 10
+  },
+  {
+    "name": "Power Fist",
+    "cost": 350,
+    "AP": 4,
+    "damage": ["4d6 bludgeoning"],
+    "crit": ["x2", "Prone or knockback 15 feet"],
+    "traits": [
+      "Unarmed",
+      "Debilitating",
+      "Weighted"
+    ],
+    "ammo": "20 rounds",
+    "depleted": "1d6 bludgeoning",
+    "load": 10,
+    "str_req": 6
+  }
+]

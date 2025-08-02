@@ -115,7 +115,7 @@
     "load": 100,
     "allotted_time": 180,
     "description": "The X-01 is an experimental power armor developed in secret by remnants of the U.S. military or possibly by Enclave scientists. With its menacing appearance and advanced shielding, it surpasses all pre-war designs in combat performance. Rare and powerful, it is a symbol of shadowy government projects that survived the nuclear apocalypse.",
-    "X-01": {
+    "craft": {
       "dc": 30,
       "materials": {
         "power armor chassis": 1,
